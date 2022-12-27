@@ -9,10 +9,13 @@ body {
     color: #402E32;
 }
 
+p {
+    font-size: 120%;
+}
+
 /* Headings and Logo */
 
-h1,
-h2 {
+h1, h2 {
     font-family: Playfair Display, sans-serif;
     letter-spacing: 2px;
     color: #140b0d;
@@ -54,7 +57,9 @@ h2 {
 
 #about-box {
     height: 200px;
-    width: 75%;
+    margin-bottom: 200px;
+    padding-top: 100px;
+    width: 100%;
     text-align: center;
     position: relative;
     top: 150px;
