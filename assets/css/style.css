@@ -39,7 +39,6 @@ h2 {
     float: right;
     list-style-type: none;
     margin: 25px 20px;
-    display: flex;
 }
 
 #nav a {
@@ -49,4 +48,14 @@ h2 {
 
 #nav a:hover {
     color: #c71b40;
+}
+
+/* About Us */
+
+#about-box {
+    height: 200px;
+    width: 75%;
+    text-align: center;
+    position: relative;
+    top: 150px;
 }
