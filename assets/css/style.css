@@ -7,6 +7,16 @@ body {
     color: #402E32;
 }
 
+/* Headings and Logo */
+
 h1, h2 {
     font-family: Playfair Display, sans-serif;
+    letter-spacing: 2px;
+    color: #140b0d;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 25px;
 }
