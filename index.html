@@ -12,20 +12,20 @@
 
 <body>
     <!-- Header and Navigation -->
-    <header>
+    <header class="top-bg">
         <a href="index.html">
             <h1 id="logo">Stockholm Book Club</h1>
         </a>
         <nav>
             <ul id="nav">
                 <li>
-                    <a href="">About Us</a>
+                    <a href="">Contact</a>
                 </li>
                 <li>
                     <a href="">Sign Up</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="">About Us</a>
                 </li>
             </ul>
         </nav>
@@ -41,8 +41,25 @@
     <!-- Sign Up -->
     <section>
         <h2>Sign up to our weekly newsletter</h2>
-        <p>We send out an email with tips on new and upcoming books aswell as some classics that you might have missed.
+        <p>We send out an email with tips on new and upcoming books, aswell as some classics that you might have missed.
         </p>
+        <div class="form-center">
+            <form action="" method="post">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="first_name" required class="text-form">
+                <br>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="last_name" required class="text-form">
+                <br>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" required class="text-form">
+                <br>
+
+                <input type="submit" value="Send Me Tips!">
+            </form>
+        </div>
     </section>
 
     <!-- Contact -->
