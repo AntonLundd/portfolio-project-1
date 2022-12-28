@@ -76,6 +76,13 @@ h1, h2 {
 
 /* Sign Up */
 
+.sign-up-center {
+    height: 200px;
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+}
+
 .form-center {
     max-width: 400px;
     margin: 0 auto;
@@ -90,11 +97,12 @@ h1, h2 {
 
 .submit-button {
     margin-top: 10px;
-    padding: 5px 5px;
+    padding: 7px 7px;
     text-align: center;
     font-size: 110%;
     background-color: #CBDCFF;
     color: #402E32;
+    border-radius: 10%;
 }
 
 /* Contact */
