@@ -64,7 +64,7 @@ h1, h2 {
 
 /* About Us */
 
-#about-box {
+#about {
     height: 200px;
     margin-bottom: 200px;
     padding-top: 100px;
@@ -76,10 +76,10 @@ h1, h2 {
 
 /* Sign Up */
 
-.sign-up-center {
+#sign-up {
     height: 200px;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 200px;
     text-align: center;
 }
 
@@ -106,5 +106,20 @@ h1, h2 {
 }
 
 /* Contact */
+
+#contact {
+    height: 200px;
+    margin-bottom: 200px;
+    padding-top: 100px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.contact-larger {
+    font-size: 150%;
+    font-weight: 700;
+}
 
 /* Footer */
