@@ -13,13 +13,20 @@ p {
     font-size: 120%;
 }
 
-/* Headings and Logo */
+/* Headings */
 
 h1, h2 {
     font-family: Playfair Display, sans-serif;
     letter-spacing: 2px;
     color: #140b0d;
 }
+
+h2 {
+    border-bottom: #402E32 1px solid;
+    display: inline;
+}
+
+/* Logo */
 
 #logo {
     float: left;
@@ -60,6 +67,7 @@ h1, h2 {
 
 #nav a:hover {
     color: #c71b40;
+    border-bottom: #c71b40 2px solid;
 }
 
 /* About Us */
