@@ -60,6 +60,14 @@ Users of this website will find all the information needed to join the book club
 
 ## Solved Bugs
 
+- I had a problem with my image not showing up on the live Pages website.
+
+- I discovered that i had accidentally put two dots in the beginning of the file path. It looked like this:
+
+>< img src="../assets/images/picture-bookshelfs.jpeg" alt="A picture of several bookshelfs with books in them">
+
+- To fix this i deleted one of the dots in the beginning and now the Pages website works.
+
 ## Unfixed Bugs
 
 - I am having trouble with the responsiveness of my image on smaller screen sizes. Hopefully in the future i can solve this bug.
