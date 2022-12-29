@@ -26,6 +26,12 @@ h2 {
     display: inline;
 }
 
+img {
+    height: 550px;
+    left: 50px;
+    position: relative;
+}
+
 /* Logo */
 
 #logo {
@@ -74,12 +80,13 @@ h2 {
 
 #about {
     height: 200px;
-    margin-bottom: 200px;
+    margin: 0 auto;
     padding-top: 100px;
-    width: 100%;
+    width: 80%;
     text-align: center;
     position: relative;
-    top: 150px;
+    float: right;
+    top: 260px;
 }
 
 #list-center {
