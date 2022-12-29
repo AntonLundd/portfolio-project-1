@@ -176,7 +176,7 @@ footer {
     right: 0;
 }
 
-/* Responsive Web*/
+/* Larger Screens */
 
 @media screen and (max-width: 1300px) {
     img {
@@ -202,6 +202,8 @@ footer {
     }
 }
 
+/* Medium Screens */
+
 @media screen and (max-width: 950px) {
     body {
         font-size: 100%;
@@ -222,6 +224,8 @@ footer {
         width: 60%;
     }
 }
+
+/* Smaller Screens */
 
 @media screen and (max-width: 800px) {
     body {
@@ -259,10 +263,12 @@ footer {
         margin: 20px 20px 0 0;
     }
 
-    .social-media>a {
+    .social-media > a {
         margin: 20px 20px;
     }
 }
+
+/* Smaller Phones */
 
 @media screen and (max-width: 450px) {
     img {

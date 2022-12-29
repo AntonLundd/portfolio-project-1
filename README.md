@@ -40,14 +40,19 @@ Users of this website will find all the information needed to join the book club
 
 ![Contact and footer part of page](assets/images/contact-footer.png)
 
+## Features Left to Implement
+
+- In the future I would like to add a page with books that has a review box under them and a rating system.
+
 ## Testing
 
 ---
 
 - I confirmed that this project is responsive on different screen sizes with DevTools in Google Chrome.
 - The website is tested on Firefox and Chrome.
-- I confirm that the form requires correct text in each field before it can be submitted. 
+- I confirm that the sign up form requires correct text in each field before it can be submitted. 
 - I have confirmed that the internal and external links works as expected.
+- The fonts and colors are accessible and easy to read.
 
 ## Bugs
 
@@ -58,7 +63,7 @@ Users of this website will find all the information needed to join the book club
 ## Unfixed Bugs
 
 - I am having trouble with the responsiveness of my image on smaller screen sizes. Hopefully in the future i can solve this bug.
-- A bug i did not have time to squash is the light blue background as well as the navigation bar looks weird on really small phone screens.
+- A bug i have not figured out how to squash is the light blue background as well as the navigation bar that looks weird on smaller phone screens.
 
 ## Validator Testing
 
@@ -84,10 +89,12 @@ I confirmed using Lighthouse that the colors and fonts I chose are accessible an
 
 - I took the form code from the CI [Love Running](https://github.com/AntonLundd/love-running) Project.
 
+- I took some of the media query code from the CI [Love Running](https://github.com/AntonLundd/love-running) Project.
+
+- The icons for the social media links I used was taken from [Fontawesome](https://fontawesome.com/).
+ 
 ### Media 
 
 - The image in the about us section was taken from [Pexels](https://www.pexels.com/sv-se/).
-
-- The icons for the social media links I used was taken from [Fontawesome](https://fontawesome.com/).
 
 - The fonts I used was taken from [google fonts](https://fonts.google.com/).
