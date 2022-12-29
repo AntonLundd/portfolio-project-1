@@ -109,7 +109,7 @@ img {
 }
 
 .form-center {
-    max-width: 400px;
+    max-width: 20%;
     margin: 0 auto;
 }
 
@@ -214,9 +214,10 @@ footer {
     }
     
     #nav li {
-        clear: both;
-        float: left;
-        line-height: 30px;
+        clear: left;
+        float: right;
+        line-height: 20px;
+        margin-left: 20px;
     }
     
     #about {
@@ -231,15 +232,26 @@ footer {
       
       img {
         height: 350px;
-        width: 80%;
+        width: 70%;
         left: 0px;
         top: 50px;
       }
       
       #about {
         width: 80%;
-        top: 300px;
-        top: 350px;
+        top: 275px;
+      }
+      .top-bg {
+        width: 100%;
+        height: 125px;
+      }
+
+      footer {
+        width: 100%;
+      }
+
+      #logo {
+        font-size: 200%;
       }
   }
   
