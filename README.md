@@ -64,9 +64,9 @@ Users of this website will find all the information needed to join the book club
 
 - I discovered that i had accidentally put two dots in the beginning of the file path. It looked like this:
 
->< img src="../assets/images/picture-bookshelfs.jpeg" alt="A picture of several bookshelfs with books in them">
+`<img src="../assets/images/picture-bookshelfs.jpeg" alt="A picture of several bookshelfs with books in them">`
 
-- To fix this i deleted one of the dots in the beginning and now the Pages website works.
+- To fix this i deleted one of the `.` before the first `/` and now the Pages website works.
 
 ## Unfixed Bugs
 
@@ -88,6 +88,18 @@ I confirmed using Lighthouse that the colors and fonts I chose are accessible an
 ## Deployment
 
 ---
+
+The website was deployed to GitHub Pages. 
+
+- First i went in to my GitHub repository.
+
+- There I clicked on settings and in the menu to the left I clicked on "Pages".
+
+- I clicked on the "source" dropdown menu and chose "main". Then I pressed the "save" button.
+
+- After a few minutes I refreshed the page and the page provided the link to my live site.
+
+The live site can be found here - [Stockholm Book Club](https://antonlundd.github.io/portfolio-project-1/)
 
 ## Credits
 
